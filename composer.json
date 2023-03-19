@@ -1,0 +1,20 @@
+{
+    "name": "jahedhmahmud/tympa",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "jahedhmahmud",
+            "email": "jahedhmahmud@hotmail.co.uk"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.11",
+        "ext-pdo": "*",
+        "guzzlehttp/guzzle": "^7.5",
+        "ramsey/uuid": "^4.2"
+    }
+}
